@@ -18,18 +18,18 @@ return randomNumber === 1 ? 'rock' : randomNumber === 2 ? 'paper': 'scissors';
 
 
 
- console.log(getComputerChoice())
+ console.log(getComputerChoice());
+
 
 
  function getHumanChoice() {
 
-   { let humChoice = prompt("Rock, paper, scissors?")
-        switch(humChoice){
-            
-            case "rock":
-            text = "";
-        }
-    }
+ let userChoice = prompt("Rock, paper, scissors?");
+
+    userChoice === 'rock' ? alert('ok') : 
+    userChoice === 'paper' ? alert('no') : 
+    userChoice === 'scissors' ? alert ('maybe') : 
+    alert('invalid'); 
 
 
  }
