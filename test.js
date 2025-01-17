@@ -24,12 +24,9 @@ return randomNumber === 1 ? 'rock' : randomNumber === 2 ? 'paper': 'scissors';
 
  function getHumanChoice() {
 
- let userChoice = prompt("Rock, paper, scissors?");
+    let userChoice = prompt('Rock, paper, scissors?', 'rock');
 
-    userChoice === 'rock' ? alert('ok') : 
-    userChoice === 'paper' ? alert('no') : 
-    userChoice === 'scissors' ? alert ('maybe') : 
-    alert('invalid'); 
+     return userChoice;
 
 
  }
